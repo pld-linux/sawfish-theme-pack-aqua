@@ -1,4 +1,3 @@
-%define		_nm	sawfish-theme
 Summary:	A "pack" of aqua themes for Sawfish
 Summary(pl):	Zestaw tematów aqua dla Sawfish'a
 Name:		sawfish-theme-pack-aqua

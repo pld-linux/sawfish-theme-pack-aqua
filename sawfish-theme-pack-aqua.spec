@@ -1,5 +1,5 @@
 Summary:	A "pack" of aqua themes for Sawfish
-Summary(pl):	Zestaw tematów aqua dla Sawfish'a
+Summary(pl):	Zestaw tematów aqua dla Sawfisha
 Name:		sawfish-theme-pack-aqua
 Version:	1
 Release:	1
@@ -38,10 +38,10 @@ rm -rf AquaOS2/.xvpics AquaZ/.xvpics
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/sawfish/themes/
+install -d $RPM_BUILD_ROOT%{_datadir}/sawfish/themes
 
 mv -f {Aquaesque,AquaOS,AquaOS2,AquaZ,SawTech-Aqua} \
-	$RPM_BUILD_ROOT%{_datadir}/sawfish/themes/
+	$RPM_BUILD_ROOT%{_datadir}/sawfish/themes
 
 %clean
 rm -rf $RPM_BUILD_ROOT

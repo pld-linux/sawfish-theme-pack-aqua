@@ -6,10 +6,15 @@ Release:	2
 License:	GPL
 Group:		Themes
 Source0:	http://download.freshmeat.net/themes/aquaesque/aquaesque-0.25.2.tar.gz
+# Source0-md5:	0e776fe79b36be4ddf611953ca9bf093
 Source1:	http://download.freshmeat.net/themes/aquaos/aquaos-0.%{version}9.tar.gz
+# Source1-md5:	2f14cc0387140a1cf12f1980e0ebbebc
 Source2:	http://download.freshmeat.net/themes/aquaos2/aquaos2-0.%{version}9.tar.gz
+# Source2-md5:	ab9ccc933af1cd1d7770739eb10c4f0e
 Source3:	http://download.freshmeat.net/themes/aquaz/aquaz-0.%{version}9.tar.gz
+# Source3-md5:	de9c383411669a330391a2d6181dfdf0
 Source4:	http://download.freshmeat.net/themes/sawtechaqua/sawtechaqua-0.28.tar.gz
+# Source4-md5:	b4525ad57803ccf0ab0a7abefaa95315
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

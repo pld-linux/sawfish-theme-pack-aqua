@@ -2,7 +2,7 @@ Summary:	A "pack" of aqua themes for Sawfish
 Summary(pl):	Zestaw tematów aqua dla Sawfisha
 Name:		sawfish-theme-pack-aqua
 Version:	1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Themes
 Source0:	http://download.freshmeat.net/themes/aquaesque/aquaesque-0.25.2.tar.gz
@@ -12,8 +12,6 @@ Source3:	http://download.freshmeat.net/themes/aquaz/aquaz-0.%{version}9.tar.gz
 Source4:	http://download.freshmeat.net/themes/sawtechaqua/sawtechaqua-0.28.tar.gz
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_prefix		/usr/X11R6
 
 %description
 A pack of themes for Sawfish:

@@ -1,5 +1,5 @@
 Summary:	A "pack" of aqua themes for Sawfish
-Summary(pl):	Zestaw motywów aqua dla Sawfisha
+Summary(pl.UTF-8):   Zestaw motywÃ³w aqua dla Sawfisha
 Name:		sawfish-theme-pack-aqua
 Version:	1
 Release:	2
@@ -26,8 +26,8 @@ A pack of themes for Sawfish:
 - aquaz
 - sawtechaqua
 
-%description -l pl
-Paczka z nastêpuj±cymi motywami dla Sawfisha:
+%description -l pl.UTF-8
+Paczka z nastÄ™pujÄ…cymi motywami dla Sawfisha:
 - aquaesque
 - aquaos
 - aquaos2
